@@ -24,7 +24,7 @@ here = path.abspath(path.dirname(__file__))
 #    long_description = f.read()
 
 setup(
-    name='dcos-riak-ts',
+    name='dcos-riak-kv',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
@@ -35,7 +35,7 @@ setup(
     long_description='',
 
     # The project's main homepage.
-    url='https://github.com/basho-labs/riak-mesos-dcos-riak-ts',
+    url='https://github.com/basho-labs/riak-mesos-dcos-riak-kv',
 
     # Author details
     author='Basho Technologies, Inc.',
@@ -69,7 +69,7 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords='dcos command riak riak-ts database mesosphere',
+    keywords='dcos command riak riak-kv database mesosphere',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
@@ -106,7 +106,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points={
         'console_scripts': [
-            'dcos-riak-ts=riak_mesos.cli:cli'
+            'dcos-riak-kv=riak_mesos.cli:cli'
         ],
     },
 )

@@ -35,7 +35,7 @@ setup(
     long_description='',
 
     # The project's main homepage.
-    url='https://github.com/basho-labs/riak-mesos-dcos-riak-kv',
+    url='https://github.com/basho-labs/riak-mesos-dcos-shims',
 
     # Author details
     author='Basho Technologies, Inc.',

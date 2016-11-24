@@ -24,14 +24,14 @@ here = path.abspath(path.dirname(__file__))
 #    long_description = f.read()
 
 setup(
-    name='dcos-riak-ts',
+    name='dcos-riak',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
     version='0.0.1',
 
-    description='Riak TS Mesos Command Line Interface',
+    description='Riak Mesos Command Line Interface',
     long_description='',
 
     # The project's main homepage.
